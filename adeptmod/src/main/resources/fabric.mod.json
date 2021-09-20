@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "adeptmod",
+  "version": "${version}",
+
+  "name": "AdeptMod",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "AdeptVail"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/adeptmod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.adeptvail.adeptmod.AdeptMod"
+    ]
+  },
+  "mixins": [
+    "adeptmod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
