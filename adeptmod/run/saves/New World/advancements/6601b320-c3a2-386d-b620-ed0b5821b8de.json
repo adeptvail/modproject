@@ -1,0 +1,10 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:river": "2021-09-20 15:38:13 -0400",
+      "minecraft:wooded_badlands_plateau": "2021-09-20 15:37:35 -0400"
+    },
+    "done": false
+  },
+  "DataVersion": 2730
+}
