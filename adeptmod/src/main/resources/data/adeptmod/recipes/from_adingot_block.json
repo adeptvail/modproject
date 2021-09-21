@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "adeptmod:adingot_block"
+    }
+  ],
+  "result": {
+    "item": "adeptmod:adingot",
+    "count": 9
+  }
+}

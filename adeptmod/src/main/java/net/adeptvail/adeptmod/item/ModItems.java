@@ -9,7 +9,7 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems {
 
-    public static final Item GEM = registerItem("gem", new Item(new FabricItemSettings().group(ItemGroup.MISC).fireproof()));
+    public static final Item ADINGOT = registerItem("adingot", new Item(new FabricItemSettings().group(ModItemGroup.ADEPT).fireproof()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(AdeptMod.MOD_ID, name), item);
