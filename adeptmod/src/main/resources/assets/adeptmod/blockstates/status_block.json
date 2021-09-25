@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "adeptmod:block/status_block" }
+  }
+}

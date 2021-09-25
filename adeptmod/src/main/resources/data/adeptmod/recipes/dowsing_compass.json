@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "f#f",
+    "#d#",
+    "f#f"
+  ],
+  "key": {
+    "#": {
+      "item": "adeptmod:adingot"
+    },
+    "f": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "d": {
+      "item": "adeptmod:pepper"
+    }
+  },
+  "result": {
+    "item": "adeptmod:dowsing_compass"
+  }
+}

@@ -1,8 +1,12 @@
 {
   "item.adeptmod.adingot": "Adingot",
+  "item.adeptmod.pepper": "Pepper",
+  "item.adeptmod.dowsing_compass": "Dowsing Compass",
+  "item.adeptmod.adept_fuel": "Adept Fuel",
 
   "block.adeptmod.adingot_ore": "Adingot Ore",
   "block.adeptmod.adingot_block": "Adingot Block",
+  "block.adeptmod.status_block": "Status Block",
 
   "itemGroup.adeptmod.adept": "Adept Mod"
 }

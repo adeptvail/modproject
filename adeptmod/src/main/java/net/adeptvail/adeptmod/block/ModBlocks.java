@@ -1,6 +1,7 @@
 package net.adeptvail.adeptmod.block;
 
 import net.adeptvail.adeptmod.AdeptMod;
+import net.adeptvail.adeptmod.block.custom.StatusBlock;
 import net.adeptvail.adeptmod.item.ModItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -16,6 +17,10 @@ public class ModBlocks {
 
     public static final Block ADINGOT_ORE = registerBlock("adingot_ore", new
             Block(FabricBlockSettings.of(Material.STONE).strength(4.0f)
+            .breakByTool(FabricToolTags.PICKAXES, 2).requiresTool()));
+
+    public static final Block STATUS_BLOCK = registerBlock("status_block", new
+            StatusBlock(FabricBlockSettings.of(Material.STONE).strength(4.0f)
             .breakByTool(FabricToolTags.PICKAXES, 2).requiresTool()));
 
     public static final Block ADINGOT_BLOCK = registerBlock("adingot_block", new
